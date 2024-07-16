@@ -1,0 +1,26 @@
+version: 2
+
+sources:
+  - name: pc_fivetran_db
+    database: pc_fivetran_db
+    schema: google_calendar
+    tables:
+      - name: access_control_list
+      - name: allowed_conference_solution_type
+      - name: conference_data_entrypoint
+      - name: default_reminder
+      - name: recurrence
+      - name: calendar_list
+      - name: event
+        columns:
+          - name: id
+            tests:
+              - unique
+              - not_null
+      - name: event_private_property
+      - name: attachment
+      - name: attendee
+      - name: reminder_override
+      - name: setting
+      - name: event_shared_property
+      - name: notification_setting

@@ -1,6 +1,6 @@
 # fivetran-snowflake-dbt-project
 ## Архитектура проекта ##
-![Иллюстрация к проекту]([https://github.com/vision-is-moribund/DataLearn/blob/main/DE-101/Module01/Архитектура%20аналитического%20решения.png](https://github.com/rimaakhmedov/fivetran-snowflake-dbt-project/blob/main/%D0%B0%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D0%B0_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B0.png))
+![Иллюстрация к проекту](архитектура_проекта.png)
 
 ## Стэк ##
 ### Генерирование данных — Google Календарь
